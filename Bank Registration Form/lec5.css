@@ -1,0 +1,31 @@
+.header {
+  background-image: url("img2.jpg");
+  height: 2000px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  text-align: inherit;
+}
+h1 {
+  text-align: center;
+}
+
+.form_box {
+  background-color: azure;
+  width: 700px;
+  height: 1300px;
+  position: relative;
+  margin: auto;
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(64, 180, 180);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: 50px;
+}
