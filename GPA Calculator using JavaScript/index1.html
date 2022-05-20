@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Gpa Calculator</title>
+     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index1.css">
+    </head>
+    <body style="text-align: center;">
+        <table>
+            <caption><h1>Enter Your Grades</h1> </caption>
+            <tr>
+                <th><h2>Courses</h2></th>
+                <th><h2>Credit Hours</h2></th>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    
+                    <form>
+                        <ul>
+                   <li> <label for="Machine_Learning">Machine_Learning</label> 
+                     <input id="ML" type="number"></li>
+                   <br> 
+                  
+                  <li> <label for="Bioinformatics">Bioinformatics</label>
+                 <input id="Bio" type="number">
+                 <br></li>
+                   
+                 <li> <label for="Computer Science">Computer Science</label>
+                 <input id="CS" type="number"></li>
+                 <br>
+                 <br>  
+                 <li>
+                 <label for="software">Software</label>
+                <input id="SW" type="number">
+                <br></li>
+                        </ol>
+            </form>
+                </td>
+                <td>
+                    <form >
+                        <ul>
+                   <li> <label for="Hours">hours</label> 
+                    <input id="h1" type="number"></li>
+                    <br>
+                   <li> <label for="Hours">hours</label> 
+                    <input id="h2" type="number"></li>
+                    <br>
+                
+                   <li> <label for="Hours">hours</label> 
+                    <input id="h3" type="number"></li>
+                    <br>
+                    <li>
+                    <label for="Hours">hours</label> 
+                    <input id="h4" type="number">
+                </ul>
+                </form>
+                </td>
+         
+            </tr>
+            <tr><td>
+                <br>
+                <button type="button" id="b1" onclick="savedata()">Save</button>  </td>
+                <td>
+                    <br>
+                    <button type="button" id="b1" onclick="Calc()">Your GPA</button> 
+                </td>
+               
+               
+           
+             </tr>
+        </table>
+        
+           
+        <script src="index1.js"></script>
+           
+    </body>
+</html>
