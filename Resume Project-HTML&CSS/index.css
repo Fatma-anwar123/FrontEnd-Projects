@@ -1,0 +1,34 @@
+* {
+  margin: 10px;
+  padding: 5px;
+  background-attachment: fixed;
+  background-color: rgb(222, 224, 188);
+  border: darkblue;
+  font-style: oblique;
+}
+button
+{
+    padding: 10px;
+    width: 250px;
+    background-color:rgb(130, 105, 172);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+div{
+
+ padding: 5px;
+ margin: 0px;
+
+}
+
+li{
+
+    font-size: 20px;
+}
+td{
+    font-size: 20px;
+}
